@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wel">
+        <h1 class="we">Welcome to the Quiz page</h1>
+    </div>
+    <div class="row">
+        <div class="col col2">
+            <form name="myForm" method="POST" onsubmit="return validateForm()" action="valid.php">
+                <table>
+                    <tr>
+                        <td>Username</td>
+                        <td><input type="text" id="user" value="" name="user1"></td>
+                        <td td id="u"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" id="pswd" name="password1" required></td>
+                        <span id="p"></span>
+
+                    </tr>
+                </table>
+                <button type="submit"> Login</button>
+
+
+            </form>
+        </div>
+        <div class="col col3">
+            <form action="registration.php" method="POST" name="Fform">
+                <table>
+                    <tr>
+                        <td>Username</td>
+                        <td><input type="text" name="user1" required></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td> <input type="password" name="password1" required> </td>
+                    </tr>
+
+                </table>
+                <button type="submit">Signup</button>
+
+            </form>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="validation.js"></script>
+</body>
+
+</html>

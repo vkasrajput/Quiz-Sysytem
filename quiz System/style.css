@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.wel{
+    width: auto;
+    background-color: rgb(43, 65, 58);
+    text-align: center;
+    line-height: 500%;
+    color: antiquewhite;
+    /* background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support 
+    background: rgba(204, 204, 204, 0.5); */
+    
+    
+}
+
+body{
+
+    background-image: url(amr-taha-SMMqej67qjI-unsplash.jpg);
+    height: fit-content;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.col {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    color: white;
+    font-size: 19px;
+    padding: 10%;
+  }
+  
+  table{
+      /* background-color: aqua; */
+      border: 2px solid black;
+      border-radius: 9px;
+        background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5); 
+  }
+  button{
+      margin-left: 40%;
+      margin-top: 20px;
+      font-size: 20px;
+      background-color:rgb(0, 255, 0);
+      color:white;
+      padding: 9px;
+      border-radius: 6px;
+      background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5); 
+  }
+  input{
+      width: 250px;
+      margin: 20px;
+      padding: 5px;
+      border-radius: 6px;
+      
+      opacity: 70%;
+  }
+  #id{
+      margin-left:40%;
+  }
+
+  /* beloq code is for check.php content*/
+  
